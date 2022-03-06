@@ -1,0 +1,108 @@
+HOW TO PLAY "MY NAME IS JACK MILLS"
+
+
+CONTENTS
+
+1. Where's the .exe?
+2. Playing the game
+3. Other files included
+4. First steps
+5. Credits
+
+
+1. Where's the .exe?
+
+To play the game, you need a Z-code interpreter. There are a lot of them and for just about every platform you can imagine. Here are some recommendations:
+
+Gargoyle (Windows) - http://ccxvii.net/gargoyle/
+Spatterlight (Mac) - http://ccxvii.net/spatterlight/
+Frotz (Linux, Mac, Windows, and a whole lot of others) - http://www.ifarchive.org/indexes/if-archiveXinfocomXinterpretersXfrotz.html
+
+Other interpreters can be found at http://www.ifarchive.org/indexes/if-archiveXinfocomXinterpreters.html
+
+After you've installed the interpreter, run it and load the JackMills.zblorb game file.
+
+
+2. Playing the game
+
+Now that you've gotten the game running, you should start by reading at least the HELP, ABOUT, NEWBIE, COMMANDS and ALL COMMANDS files within the game (type the command after the > and press enter).
+
+If you are new to Interactive Fiction, the Beginner's Guide at Brass Lantern is a good read:
+http://www.brasslantern.org/beginners/beginnersguide.html
+
+Another guide can be found at microheaven.com:
+http://www.microheaven.com/IFGuide/
+
+If you want a quick start, there's a short but useful guide by Adam Cadre covering the basics: 
+http://adamcadre.ac/content/if.txt
+
+
+3. Other files included
+
+There are some other files that are not necessary to play but might be fun or useful:
+
+source.txt - The full source code of the game, written in Inform 7
+walkthrough.txt - The walkthrough for the game. Use it sparingly!
+
+More stuff can be found from the game's web pages at http://www.nitku.net/if/jackmills
+
+
+4. First steps 
+
+If you are still unsure how to play, here are the first few steps to get you started.
+
+
+We start the game in a jail cell (luckily on the outside), where our friend Professor Humphrey has been arrested. The professor asks us to find an item that was stolen from him. Let's take a look around:
+
+ EXAMINE PROFESSOR (or X PROFESSOR for short)
+ EXAMINE JAIL
+ LISTEN
+ SMELL
+
+(Note that the commands do not need to be in all caps, even though they are usually written in such way in documents for clarity.) We could also check what's in our pockets:
+
+ INVENTORY (or just I)
+
+Before we can go hunting for the item, we need a bit more information.
+
+ ASK PROFESSOR ABOUT ITEM
+
+Now we know what we're after. Let's ask some more:
+
+ ASK PROFESSOR ABOUT ARREST
+ ASK PROFESSOR ABOUT THIEF
+
+The professor tells us that a man called Geigner has stolen the item. All we need now is to find him. Maybe the professor knows where he is?
+
+ ASK PROFESSOR ABOUT GEIGNER
+
+The professor gives us our next destination: Hotel Falcon. We're ready to leave now. The exit was to the east (you can confirm this by commanding LOOK or L):
+
+ EAST
+
+(You can also use abbreviations N, E, S, W for cardinal directions and NE, NW, SE, SW for intercardinal directions.) We are now in the lobby of the police station. If you want, you can take a look at what the police officer is doing:
+
+ X POLICE
+ X PAPERS
+ READ PAPERS
+
+There's nothing else to do in the police station for now, so we can move on.
+
+ SOUTH
+
+Outside the police station our car is waiting for us. Then it's off to the hotel:
+
+ DRIVE TO HOTEL FALCON
+
+That's all there is to it! You're on your own from now on. If you get stuck, there's a walkthrough bundled with the game, though I strongly suggest you not to give up too easily. The puzzles aren't hard and they can be easily solved after a short pause or maybe after a good night's sleep.
+
+Note that you can and should explore the game and try different things; whatever you do, you can't get yourself in a situation where it'd be impossible to reach the end.
+
+
+5. Credits
+
+My Name is Jack Mills was created by Juhana Leinonen and beta-tested by Taleslinger, Poster and Jackie Keith. The game was released as an entry to IFComp 2007 (www.ifcomp.org).
+
+The game was created using Inform 7 by Graham Nelson (www.inform-fiction.org) and extensions by Eric Eve and Emily Short.
+
+See also VERSION and ABOUT within the game.
